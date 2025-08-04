@@ -1,8 +1,0 @@
-<form method="POST" id={{form_id}} action={{url}}>
-    {% csrf_token %}
-    <div class="d-none alert alert-danger" id="tweet-create-form-error"></div>
-    <input type="hidden" value="/" name="next">
-    <textarea name="content" class="form-control border-0" maxlength="240" placeholder="Talk your talk"
-              required></textarea>
-    <button type="submit" class="btn btn-block btn-primary">Save</button>
-</form>
