@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 django = "==3.2"
 djangorestframework = "*"
+openai = "*"
+requests = "*"
+fastapi = "*"
+pydantic = "*"
 
 [dev-packages]
 black = "*"
